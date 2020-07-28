@@ -1,0 +1,11 @@
+package com.simplilearn.accessmodifier3;
+
+public class TestEmployee {
+	 
+		public static void main(String[] args) {
+			
+		}
+		
+}
+
+

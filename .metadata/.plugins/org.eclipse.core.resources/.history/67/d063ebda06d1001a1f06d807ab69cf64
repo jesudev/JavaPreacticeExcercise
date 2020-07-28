@@ -1,0 +1,21 @@
+package com.simplilearn.accessmodifier3;
+
+import com.simplielearn.accessmodifier.Employee;;
+
+public class TestEmployee extends Employee{
+	 
+		public TestEmployee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+		public static void main(String[] args) {
+						
+			TestEmployee e1=new TestEmployee( );
+			System.out.println("The Salary of Employee with Employee number "+e1.getEmpId() +"named"+e1.getEmpName() +"is"+e1.showSalary(e1.getEmpId(),e1.getEmpName()));
+;			
+		}
+		
+}
+
+

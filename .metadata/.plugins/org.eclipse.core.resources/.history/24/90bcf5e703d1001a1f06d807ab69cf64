@@ -1,0 +1,23 @@
+package com.simplielearn.accessmodifier;
+
+public class Employee {
+	private int empId=101;
+	public String empName="Jishnu";
+	protected double empSalary=200000;
+	public int getEmpId() {
+		return empId;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	 
+	protected void setEmpSalary(double empSalary) {
+		this.empSalary = empSalary;
+	}
+	protected double showSalary(int empId,String empName) {
+		return empSalary;
+	}
+
+}
+
+

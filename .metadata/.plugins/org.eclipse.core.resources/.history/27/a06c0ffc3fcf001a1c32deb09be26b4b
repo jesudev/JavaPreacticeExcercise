@@ -1,0 +1,24 @@
+package com.simplilearn.typecasting;
+
+import java.util.Scanner;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		// WAP for taking user Input as string
+		// Integer Byte Float and Double
+		System.out.println("Enter number for conversion");
+		Scanner s= new Scanner(System.in);
+		String stringInput=s.nextLine();
+		int intVal=Integer.parseInt(stringInput);
+		float floatVal=Float.parseFloat(stringInput);
+		double doubleVal=Double.parseDouble(stringInput);
+		byte byteVal=Byte.parseByte(stringInput);
+		
+		System.out.println("Float value converted from string :"+ floatVal);
+		System.out.println("double value converted from string : "+ doubleVal);
+		System.out.println("byte value converted from string :"+ byteVal);
+		 
+	}
+
+}
